@@ -1,0 +1,86 @@
+.loginpage{
+    
+    width: max-content;
+    background-color: rgba(210, 185, 234, 0.452);
+    height: 50%;
+     padding: 2% 5% 2% 5%;
+    margin: auto;
+    margin-top: 5%;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    flex-direction: row;
+    box-shadow: rgba(23, 23, 44, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    
+
+}
+.login-form{
+    font-size: 1rem;
+    font-weight: bolder;
+    font-family:monospace;
+}
+.login-form input {
+    padding-left: 10px;
+    border: none;
+    border-radius: 10px;
+    height: 40px;
+    width: 300px;
+    margin: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.login-form input:focus {
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.25) 2.95px 2.95px 3.9px;
+    transform: translateY(-2px);
+}
+
+.login-form input::placeholder {
+    transition: transform 0.3s ease, font-size 0.3s ease, color 0.3s ease;
+}
+
+.login-form input:focus::placeholder {
+    transform: translateY(-10px);
+    font-size: 12px;
+    color: #888;
+}
+
+.login-form button{
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1rem;
+    border-radius: 10px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+    margin: 5px 10px;
+    height: 40px;
+    width: 150px;
+   
+    background-color: rgb(251, 251, 240);
+}
+
+.login-form button:hover{
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+.login-form p{
+    margin: 10px;
+}
+.login-form a{
+    margin: 10px;
+    font-size: 1.5rem;
+
+}
+.login-form h2{
+    margin: 0 34%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.logimg img{
+    height: 400px;
+    width: max-content;
+}
+
+
+
